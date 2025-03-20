@@ -4,16 +4,16 @@ public class Mahasiswa17 {
     String kelas;
     double ipk;
 
-    //Konstruktor default
+    // Konstruktor default
     Mahasiswa17() {
     }
 
-    //Konstruktor berparameter(dibuat ada yang namanya var parameter inputnya sama ada yang tidak)
-    Mahasiswa17(String nm, String name, String kls, double ip) {
-        nim = nm;
-        nama = name;
-        kelas = kls;
-        ipk = ip;
+    // Konstruktor berparameter
+    Mahasiswa17(String nim, String nama, String kelas, double ipk) {
+        this.nim = nim;
+        this.nama = nama;
+        this.kelas = kelas;
+        this.ipk = ipk;
     }
 
     void tampilInformasi() {
