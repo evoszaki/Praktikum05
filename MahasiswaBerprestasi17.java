@@ -18,15 +18,6 @@ public class MahasiswaBerprestasi17 {
         }
     }
 
-    void tampil() {
-        for (Mahasiswa17 m : listMhs) {
-            if (m != null) {
-                m.tampilInformasi();
-                System.out.println("-----------------------");
-            }
-        }
-    }
-
     void bubleSort() {
         for (int i = 0; i < listMhs.length - 1; i++) {
             for (int j = 1; j < listMhs.length - i; j++) {
@@ -35,6 +26,15 @@ public class MahasiswaBerprestasi17 {
                     listMhs[j] = listMhs[j - 1];
                     listMhs[j - 1] = tmp;
                 }
+            }
+        }
+    }
+
+    void tampil() {
+        for (Mahasiswa17 m : listMhs) {
+            if (m != null) {
+                m.tampilInformasi();
+                System.out.println("-----------------------");
             }
         }
     }

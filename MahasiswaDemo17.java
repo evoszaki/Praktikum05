@@ -2,9 +2,7 @@ import java.util.Scanner;
 public class MahasiswaDemo17 {
     public static void main(String[] args) {
         Scanner input17 = new Scanner(System.in);
-        System.out.print("Masukkan jumlah mahasiswa: ");
-        int jumlah = input17.nextInt();
-        input17.nextLine(); // Mengonsumsi newline
+        int jumlah = 5;
 
         MahasiswaBerprestasi17 list = new MahasiswaBerprestasi17(jumlah);
 
@@ -18,7 +16,8 @@ public class MahasiswaDemo17 {
             String kelas = input17.nextLine();
             System.out.print("IPK: ");
             double ipk = input17.nextDouble();
-            input17.nextLine(); // Mengonsumsi newline
+            System.out.println("-----------------------");
+            input17.nextLine(); 
 
             Mahasiswa17 mhs = new Mahasiswa17(nim, nama, kelas, ipk);
             list.tambah(mhs);
