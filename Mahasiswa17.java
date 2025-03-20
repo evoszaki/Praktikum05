@@ -9,11 +9,11 @@ public class Mahasiswa17 {
     }
 
     // Konstruktor berparameter
-    Mahasiswa17(String nim, String nama, String kelas, double ipk) {
-        this.nim = nim;
-        this.nama = nama;
-        this.kelas = kelas;
-        this.ipk = ipk;
+    Mahasiswa17(String nm, String name, String kls, double ip) {
+        nim = nm;
+        nama = name;
+        kelas = kls;
+        ipk = ip;
     }
 
     void tampilInformasi() {
